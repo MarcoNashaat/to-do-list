@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://images.wallpaperscraft.com/image/moon_tree_starry_sky_132139_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color:red ;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#input{
+    border: thin solid black;
+    height: 40px;
+    width: 250px;
+}
+
+#button{
+    border: thin solid black;
+    height: 40px;
+    width: 50px;
+    background-color: blue;
+    color: red;
+    cursor: pointer;
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+
+}
+
+.list{
+    line-height: normal;
+    font-size: 30px;
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.warn{
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+}
